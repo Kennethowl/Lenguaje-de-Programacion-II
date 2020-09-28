@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 {
     system("cls");
 
-    // starShip();
+    starShip();
     // snake();
 
     return 0;
