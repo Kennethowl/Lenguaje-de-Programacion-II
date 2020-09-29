@@ -25,7 +25,7 @@ void listarProductos() {
 }
 
 void movimientoInventario(string codigo, int cantidad, int precio, string tipoMovimiento) {
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i > 0; i++)
     {
         if (productos[i][0] == codigo) {
             if (tipoMovimiento == "+") {
