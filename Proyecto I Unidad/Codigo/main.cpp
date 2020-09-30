@@ -9,8 +9,7 @@ int main(int argc, char const *argv[])
     system("cls");
       
     int opcion=0;
-    
-
+   
     while(true){
     cout <<"-----------------------------------------------" << endl;
     cout <<"-                OWL CONSOLE INC              -" << endl;
@@ -31,10 +30,9 @@ int main(int argc, char const *argv[])
     default:
     break;
     }
-    }
-
-    if (opcion==0){
-        cout << "Fin del Programa" << endl;
-    }
+} while (opcion==0){
+    break;
+}
+    
     return 0;
 }
