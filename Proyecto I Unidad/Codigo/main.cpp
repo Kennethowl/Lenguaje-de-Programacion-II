@@ -12,12 +12,17 @@ int main(int argc, char const *argv[])
     
 
     while(true){
+    cout <<"-----------------------------------------------" << endl;
+    cout <<"-                OWL CONSOLE INC              -" << endl;
+    cout <<"-----------------------------------------------" << endl;
     cout << "Ingrese una opcion: " << endl;
-    cin >> opcion;
     cout << "1 - Startship" << endl;
     cout << "2 - Snake" << endl;
+    cout << "0 - Salir de Owl Console" << endl;
 
-    switch{
+    cin >> opcion;
+   
+    switch(opcion){
 
     case 1: starShip();
     break;
@@ -28,7 +33,7 @@ int main(int argc, char const *argv[])
     }
     }
 
-    if (opcion=0){
+    if (opcion==0){
         cout << "Fin del Programa" << endl;
     }
     return 0;
