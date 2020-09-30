@@ -17,6 +17,7 @@ int main(int argc, char const *argv[])
     cout << "Ingrese una opcion: " << endl;
     cout << "1 - Startship" << endl;
     cout << "2 - Snake" << endl;
+    cout << "3 - Pong" << endl;
     cout << "0 - Salir de Owl Console" << endl;
 
     cin >> opcion;
@@ -26,6 +27,8 @@ int main(int argc, char const *argv[])
     case 1: starShip();
     break;
     case 2: snake();
+    break;
+    case 3: Pong();
     break;
     default:
     break;
