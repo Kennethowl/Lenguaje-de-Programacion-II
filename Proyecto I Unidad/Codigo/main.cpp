@@ -30,8 +30,8 @@ int main(int argc, char const *argv[])
     break;
     case 2: snake();
     break;
-    case 3: Pong3();
-    break;
+    /*case 3: Pong3();
+    break;*/
     default:
     break;
     }
