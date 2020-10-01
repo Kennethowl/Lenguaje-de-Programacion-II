@@ -1,7 +1,8 @@
 #include <iostream>
 #include "startShip.h"
 #include "snake.h"
-#include "Pong.h"
+#include "Pong3.h"
+
 
 using namespace std;
 
@@ -29,7 +30,7 @@ int main(int argc, char const *argv[])
     break;
     case 2: snake();
     break;
-    case 3: Pong();
+    case 3: Pong3();
     break;
     default:
     break;
