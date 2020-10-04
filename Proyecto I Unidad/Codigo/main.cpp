@@ -1,7 +1,7 @@
 #include <iostream>
 #include "startShip.h"
 #include "snake.h"
-#include "X0.h"
+//#include "X0.h"
 
 
 using namespace std;
@@ -20,7 +20,7 @@ int main(int argc, char const *argv[])
     cout << "Ingrese una opcion: " << endl;
     cout << "1 - Startship" << endl;
     cout << "2 - Snake" << endl;
-    cout << "3 - Pong" << endl;
+    cout << "3 - X0" << endl;
     cout << "0 - Salir de Owl Console" << endl;
 
     cin >> opcion;
@@ -31,8 +31,8 @@ int main(int argc, char const *argv[])
     break;
     case 2: snake();
     break;
-    case 3: X0();
-    break;
+    /*case 3: X0();
+    break;*/
     default:
     break;
     }
