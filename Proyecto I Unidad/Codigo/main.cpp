@@ -1,7 +1,7 @@
 #include <iostream>
 #include "startShip.h"
 #include "snake.h"
-//#include "X0.h"
+#include "XO.h"
 
 
 using namespace std;
@@ -31,12 +31,12 @@ int main(int argc, char const *argv[])
     break;
     case 2: snake();
     break;
-   // case 3: X0();
-   // break;
+    case 3: XO();
+    break;
     default:
     break;
     }
-} while (opcion==0){
+}if (opcion==0){
     break;
 }
     
