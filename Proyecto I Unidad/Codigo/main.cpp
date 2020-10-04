@@ -31,8 +31,8 @@ int main(int argc, char const *argv[])
     break;
     case 2: snake();
     break;
-    /*case 3: X0();
-    break;*/
+   // case 3: X0();
+   // break;
     default:
     break;
     }
