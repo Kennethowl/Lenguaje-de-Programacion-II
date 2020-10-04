@@ -36,7 +36,7 @@ int main(int argc, char const *argv[])
     default:
     break;
     }
-}if (opcion==0){
+}while (opcion==0){
     break;
 }
     

@@ -10,13 +10,15 @@ void metervalores(char tablero[3][3]);
 void metevaloresIA(char tablero[3][3]);
 int gana (char tablero[3][3]);
 
-int main (){
+int XO (){
 
     char tablero[3][3];
     
     loop (tablero); // Llamada de funciones elementales
-    
-    getchar();
+    system("pause");
+    system("cls");
+
+    return 0;
 }
 
 void loop( char tablero[3][3]){
@@ -52,12 +54,15 @@ void loop( char tablero[3][3]){
     
     if (win == 0){
     	printf("Congratulations, you have won");
+        printf("\n");
 	}
 	else if (win == 1){
 		printf("You can do, for now you have lost");
+        printf("\n");
 	}
 	else {
 		printf("This fight has been marvelous, you have tied");
+        printf("\n");
 	}
    
 }
