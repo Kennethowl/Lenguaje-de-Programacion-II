@@ -37,7 +37,7 @@ int main(int argc, char const *argv[])
     break;
     }
 } if(opcion==0){
-    system("pasuse");
+    system("pause");
 }
     return 0;
 }
