@@ -212,7 +212,7 @@ void tabla(char tablero[3][3]){
     printf("\n\n");
 }
 
-int gana (char tablero[3][3]){
+int gana (char tablero[3][3]){      //Cabe recalcar que aqui se haran los movimientos entre la maquina y yo.
 	if (tablero[0][0] == 'X' || tablero[0][0] == 'O'){
 		if (tablero[0][0]==tablero[0][1] && tablero[0][0]==tablero[0][2]){
 			if(tablero[0][0]=='X'){
